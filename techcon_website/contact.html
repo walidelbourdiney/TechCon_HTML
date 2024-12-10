@@ -5,5 +5,75 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
   </head>
-  <body></body>
+  <body>
+    <header>
+      <h1>Contact Us</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="register.html">Register</a></li>
+        <li><a href="schedule.html">schedule</a></li>
+      </ul>
+    </nav>
+    <main>
+      <p>
+        Email: <a href="mailto:info@techcon2024.com">info@techcon2024.com</a>
+      </p>
+      <p>Follow us on Social Media:</p>
+      <ul>
+        <li>
+          <a href="https://twitter.com/techcon2024" target="_blank">Twitter</a>
+        </li>
+        <li>
+          <a href="https://facebook.com/techcon2024" target="_blank"
+            >Facebook</a
+          >
+        </li>
+        <li>
+          <a href="https://linkedin.com/company/techcon2024" target="_blank"
+            >LinkedIn</a
+          >
+        </li>
+      </ul>
+
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.835434509391!2d144.9537353158547!3d-37.81720974201307!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d43f0f0f5b5%3A0x5045675218ce640!2sMelbourne%20Convention%20and%20Exhibition%20Centre!5e0!3m2!1sen!2sau!4v1604382715620!5m2!1sen!2sau"
+        allowfullscreen=""
+        loading="lazy"
+      >
+      </iframe>
+      <form action="/submit-contact" method="POST">
+        <label for="name">Your Name</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Enter your name"
+          required
+        />
+
+        <label for="email">Your Email</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Enter your email"
+          required
+        />
+
+        <label for="message">Your Message</label>
+        <textarea
+          id="message"
+          name="message"
+          placeholder="Write your message here"
+          required
+        ></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+      <footer><p>copyright 2024 TechCon</p></footer>
+    </main>
+  </body>
 </html>
